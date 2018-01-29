@@ -1,0 +1,63 @@
+@import '../../sharedresources/themes.module.scss';
+.cloudDesignBoxPromotedLinks {
+  .cdbsubjecttiles{
+    width: 100%;
+    display: none;
+  }
+  div.actionicons .tiles {
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    display:block;
+    padding-right:5px;
+    padding-left:5px;
+    padding-bottom:10px;
+  }
+  .cdbdescholder{
+    background-color:rgba(0,0,0,0.5);   
+    display:block;
+    position:absolute;
+    bottom:0px;
+    color:#fff;
+    font-size:13px;
+    width:100%;
+  }
+  div.actionicons .tiles a:hover {background-color:#c1c1c1;	}
+  div.actionicons .tiles .tilecontent {
+    background: $ms-themePrimary;
+    height: 150px;
+    overflow: hidden;
+    display: block;
+    position:relative;
+    background-repeat:no-repeat;
+    background-position:center center;
+  }
+  .row{display: block;}
+
+  .tpmouse{
+    cursor:pointer;
+  }
+  .cdbclear{clear:both;}
+  .cdbdescholdertitle{
+    display: block;
+    padding:15px;
+  }
+  .tilecontent .cdbdescholderdesc{
+    display:none;
+    padding:15px;
+    padding-top:0px;
+    height: 100%;
+  }
+  @media all
+  and (max-width: 600px){
+    .mobiletile{
+      width:50%!important;
+    }
+  }
+  @media all
+  and (max-width: 470px){
+    .mobiletile{
+      width:100%!important;
+    }
+  }
+}

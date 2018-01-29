@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Promoted Links",
+    "id": "a3f14a6d-0a34-4671-b0f0-24036c7c46c7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/promoted-links.sppkg"
+  }
+}
